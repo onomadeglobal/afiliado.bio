@@ -1,13 +1,23 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<rss version="2.0">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>filiado | Shopee, Amazon, Mercado Livre, Hotmart, Kiwify e Outros | Trafego Pago</title>
-    <link>https://afiliado.bio/</link>
-    <description>Como Fazer Trafego Pago e Ganhar Dinheiro Como Afiliado da Shopee, Kiwify, Mercado Livre, Amazon, Hotmart e muito mais. Confira nesse Artigo.</description>
+    <title>Afiliado - Marketing Digital, Ganhar Dinheiro e Vendas Online - Shopee, Amazon, Mercado Livre, Hotmart, Kiwify e Outros - Trafego Pago</title>
+    <link>https://afiliado.bio</link>
+    <description>Blog sobre ganhar dinheiro online, marketing digital e vendas.</description>
     <language>pt-br</language>
-    <lastBuildDate>Sat, 12 Jul 2025 15:00:00 -0300</lastBuildDate>
+    <lastBuildDate>Mon, 14 Jul 2025 20:00:00 -0300</lastBuildDate>
 
-	   <item>
+    <atom:link href="https://afiliado.bio/rss.xml" rel="self" type="application/rss+xml" />
+
+    <item>
+      <title>Como Ganhar Dinheiro com Blog em 2025</title>
+      <link>https://afiliado.bio/post1.html</link>
+      <description>Aprenda a criar um blog que realmente gera vendas.</description>
+      <pubDate>Mon, 14 Jul 2025 10:00:00 -0300</pubDate>
+      <guid>https://afiliado.bio/post1.html</guid>
+    </item>
+
+   	   <item>
       <title>Maquininha: Qual a Melhor Máquina de Cartão Para quem Está Começando?</title>
       <link>https://afiliado.bio/blog/maquininha/</link>
       <description>Se você está começando um negócio e quer saber qual a melhor maquininha de cartão, chegou ao lugar certo. Neste guia completo, vamos comparar modelos 
@@ -16,7 +26,7 @@
       <pubDate>Mon, 14 Jul 2025 15:38:00 -0300</pubDate>
       <guid>https://afiliado.bio/blog/maquininha/</guid>
     </item>
-
+	  
     <item>
       <title>Blog - Afiliado</title>
       <link>https://afiliado.bio/blog/</link>
@@ -25,6 +35,7 @@
       <guid>https://afiliado.bio/blog/</guid>
     </item>
 
+	  
     <item>
       <title>Avaliador Premiado é Golpe | A Verdade por trás do Aplicativo que Promete Ganho Fácil</title>
       <link>https://afiliado.bio/blog/avaliador-premiado/</link>
@@ -34,7 +45,7 @@
       <guid>https://afiliado.bio/blog/avaliador-premiado/</guid>
     </item>
 
-	  <item>
+	    <item>
       <title>Fortune Tiger | Jogo do Tigrinho | Link da Plataformas | Riscos Envolvidos</title>
       <link>https://afiliado.bio/blog/fortune-tiger/</link>
       <description>Se você quer jogar fortune tiger o jogo do tigrinho, você precisa ler isso para saber o risco que corre ao realizar suas apostas neste joguinho. Parece inofenciso, mas 
@@ -43,16 +54,16 @@
       <guid>https://afiliado.bio/blog/fortune-tiger/</guid>
     </item>
 
-	    <item>
+	      <item>
       <title>Dupoc Cassino é Confiável? Veja Como Funciona, Bônus, Jogos e Alternativas</title>
       <link>https://afiliado.bio/blog/dupoc/</link>
       <description>Se você está em dúvida sobre como funciona o Dupoc Bet — também conhecido como Dupoc Cassino 
 	      e quer saber se é realmente seguro apostar nessa plataforma, este artigo vai te mostrar tudo.</description>
       <pubDate>Thu, 12 Jul 2025 20:40:00 -0300</pubDate>
       <guid>https://afiliado.bio/blog/dupoc/</guid>
-    </item>
+		          </item>
+
 
   </channel>
-	<atom:link href="https://afiliado.bio/rss.xml" rel="self" type="application/rss+xml" xmlns:atom="http://www.w3.org/2005/Atom" />
-
 </rss>
+

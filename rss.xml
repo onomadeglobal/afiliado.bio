@@ -13,7 +13,7 @@
       <description>Se você está começando um negócio e quer saber qual a melhor maquininha de cartão, chegou ao lugar certo. Neste guia completo, vamos comparar modelos 
 	      das principais marcas como PagSeguro (PagBank), Mercado Pago, SumUp, Ton e InfinitePay, com foco nas taxas, bandeiras aceitas, funcionalidades, preços e 
 	      indicações para cada tipo de negócio.</description>
-      <pubDate>Fri, 14 Jul 2025 15:38:00 -0300</pubDate>
+      <pubDate>Mon, 14 Jul 2025 15:38:00 -0300</pubDate>
       <guid>https://afiliado.bio/blog/maquininha/</guid>
     </item>
 
@@ -53,4 +53,6 @@
     </item>
 
   </channel>
+	<atom:link href="https://afiliado.bio/rss.xml" rel="self" type="application/rss+xml" xmlns:atom="http://www.w3.org/2005/Atom" />
+
 </rss>

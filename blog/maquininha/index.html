@@ -581,12 +581,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 <div style="position: relative; width: 100%; overflow: hidden;">
   <!-- Botão Esquerda -->
-  <button onclick="scrollTable('left')" style="position: absolute; left: 0; top: 50%; transform: translateY(-50%); z-index: 10; background: #ffcb04; border: none; padding: 10px; cursor: pointer; font-size: 18px; border-radius: 5px;">
+  <button onclick="scrollTable('left1')" style="position: absolute; left: 0; top: 50%; transform: translateY(-50%); z-index: 10; background: #ffcb04; border: none; padding: 10px; cursor: pointer; font-size: 18px; border-radius: 5px;">
     ◀
   </button>
 
   <!-- Botão Direita -->
-  <button onclick="scrollTable('right')" style="position: absolute; right: 0; top: 50%; transform: translateY(-50%); z-index: 10; background: #ffcb04; border: none; padding: 10px; cursor: pointer; font-size: 18px; border-radius: 5px;">
+  <button onclick="scrollTable('right1')" style="position: absolute; right: 0; top: 50%; transform: translateY(-50%); z-index: 10; background: #ffcb04; border: none; padding: 10px; cursor: pointer; font-size: 18px; border-radius: 5px;">
     ▶
   </button>
 
@@ -649,9 +649,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     const container = document.getElementById('scroll-container');
     const scrollAmount = 300; // pixels a rolar por clique
 
-    if (direction === 'left') {
+    if (direction === 'left1') {
       container.scrollBy({ left: -scrollAmount, behavior: 'smooth' });
-    } else if (direction === 'right') {
+    } else if (direction === 'right1') {
       container.scrollBy({ left: scrollAmount, behavior: 'smooth' });
     }
   }

@@ -577,6 +577,88 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 <h3>Maquininhas Mercado Pago</h3>
 
+	  
+
+<div style="position: relative; width: 100%; overflow: hidden;">
+  <!-- Botão Esquerda -->
+  <button onclick="scrollTable('left')" style="position: absolute; left: 0; top: 50%; transform: translateY(-50%); z-index: 10; background: #ffcb04; border: none; padding: 10px; cursor: pointer; font-size: 18px; border-radius: 5px;">
+    ◀
+  </button>
+
+  <!-- Botão Direita -->
+  <button onclick="scrollTable('right')" style="position: absolute; right: 0; top: 50%; transform: translateY(-50%); z-index: 10; background: #ffcb04; border: none; padding: 10px; cursor: pointer; font-size: 18px; border-radius: 5px;">
+    ▶
+  </button>
+
+  <!-- Container com a Tabela -->
+  <div id="scroll-container" style="overflow-x: auto; scroll-behavior: smooth;">
+    <table border="1" cellpadding="8" cellspacing="0" style="border-collapse: collapse; min-width: max-content; margin: 0 auto;">
+      <thead>
+        <tr style="background-color: #ffcb04; border-color: #ffcb04;">
+          <th style="min-width: 140px;">Minizinha NFC 2</th>
+          <th style="min-width: 140px;">Minizinha Chip 3</th>
+          <th style="min-width: 140px;">Moderninha Plus 2</th>
+          <th style="min-width: 140px;">Moderninha Pro 2</th>
+          <th style="min-width: 140px;">Moderninha Smart 2</th>
+          <th style="min-width: 140px;">Tap On</th>
+        </tr>
+      </thead>
+      <tbody style="text-align: center;">
+        <tr>
+          <!-- Repita os <td> conforme necessário -->
+          <td style="background-color:#777777;">
+            <img src="img/minizinha-nfc.png" alt="Minizinha NFC 2" width="140"><br>
+            <a href="https://link.afiliado.bio/minizinha-nfc" style="background-color: #ffcb04; padding: 9px 14px; border-radius: 4px; text-decoration: none; color: #000;">Saiba mais</a>
+            
+          </td>
+
+
+          <td style="background-color:#777777;">
+            <img src="img/minizinha-chip.png" alt="Minizinha Chip 3" width="140"><br>
+            <a href="https://link.afiliado.bio/minizinha-chip" style="background-color: #ffcb04; padding: 9px 14px; border-radius: 4px; text-decoration: none; color: #000;">Saiba mais</a>
+          </td>
+
+          <td style="background-color:#777777;">
+            <img src="img/moderninha-plus.png" alt="Moderninha Plus 2" width="140"><br>
+            <a href="https://link.afiliado.bio/moderninha-plus" style="background-color: #ffcb04; padding: 9px 14px; border-radius: 4px; text-decoration: none; color: #000;">Saiba mais</a>
+          </td>
+
+          <td style="background-color:#777777;">
+            <img src="img/moderninha-pro.png" alt="Moderninha Pro 2" width="140"><br>
+            <a href="https://link.afiliado.bio/moderninha-pro" style="background-color: #ffcb04; padding: 9px 14px; border-radius: 4px; text-decoration: none; color: #000;">Saiba mais</a>
+          </td>
+
+          <td style="background-color:#777777;">
+            <img src="img/moderninha-smart.png" alt="Moderninha Smart 2" width="140"><br>
+            <a href="https://link.afiliado.bio/moderninha-smart" style="background-color: #ffcb04; padding: 9px 14px; border-radius: 4px; text-decoration: none; color: #000;">Saiba mais</a>
+          </td>
+
+          <td style="background-color:#777777;">
+            <img src="img/tap-on.png" alt="Tap On" width="140"><br>
+            <a href="https://link.afiliado.bio/tap-on" style="background-color: #ffcb04; padding: 9px 14px; border-radius: 4px; text-decoration: none; color: #000;">Saiba mais</a>
+          </td>
+       
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<script>
+  function scrollTable(direction) {
+    const container = document.getElementById('scroll-container');
+    const scrollAmount = 300; // pixels a rolar por clique
+
+    if (direction === 'left') {
+      container.scrollBy({ left: -scrollAmount, behavior: 'smooth' });
+    } else if (direction === 'right') {
+      container.scrollBy({ left: scrollAmount, behavior: 'smooth' });
+    }
+  }
+</script>
+
+
+
 
 <ul>
   <li><strong>Point Mini NFC</strong> — compacta e mais barata</li>

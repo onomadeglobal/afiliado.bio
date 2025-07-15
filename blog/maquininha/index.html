@@ -633,18 +633,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   </div>
 </div>
 
-<script>
-  function scrollTable(direction) {
-    const container = document.getElementById('scroll-container1');
-    const scrollAmount = 300; // pixels a rolar por clique
 
-    if (direction === 'left1') {
-      container.scrollBy({ left: -scrollAmount, behavior: 'smooth' });
-    } else if (direction === 'right1') {
-      container.scrollBy({ left: scrollAmount, behavior: 'smooth' });
-    }
-  }
-</script>
 
 
 
@@ -1225,6 +1214,19 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   });
 
   lazyImages.forEach(img => observer.observe(img));
+</script>
+
+	<script>
+  function scrollTable(direction) {
+    const container = document.getElementById('scroll-container1');
+    const scrollAmount = 300; // pixels a rolar por clique
+
+    if (direction === 'left1') {
+      container.scrollBy({ left: -scrollAmount, behavior: 'smooth' });
+    } else if (direction === 'right1') {
+      container.scrollBy({ left: scrollAmount, behavior: 'smooth' });
+    }
+  }
 </script>
 
 

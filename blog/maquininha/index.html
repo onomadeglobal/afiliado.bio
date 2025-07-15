@@ -374,17 +374,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 <center><h3>Maquininhas PagSeguro</h3></center>
 
-<div style="position: relative; width: 100%; overflow: hidden;">
-  <!-- Botão Esquerda -->
-  <button onclick="scrollTable('left')" style="position: absolute; left: 0; top: 50%; transform: translateY(-50%); z-index: 10; background: #feea30; border: none; padding: 10px; cursor: pointer; font-size: 18px; border-radius: 5px;">
-    ◀
-  </button>
-
-  <!-- Botão Direita -->
-  <button onclick="scrollTable('right')" style="position: absolute; right: 0; top: 50%; transform: translateY(-50%); z-index: 10; background: #feea30; border: none; padding: 10px; cursor: pointer; font-size: 18px; border-radius: 5px;">
-    ▶
-  </button>
-
   <!-- Container com a Tabela -->
   <div id="scroll-container" style="overflow-x: auto; scroll-behavior: smooth;">
     <table border="1" cellpadding="8" cellspacing="0" style="border-collapse: collapse; min-width: max-content; margin: 0 auto;">
@@ -437,20 +426,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       </tbody>
     </table>
   </div>
-</div>
-
-<script>
-  function scrollTable(direction) {
-    const container = document.getElementById('scroll-container');
-    const scrollAmount = 300; // pixels a rolar por clique
-
-    if (direction === 'left') {
-      container.scrollBy({ left: -scrollAmount, behavior: 'smooth' });
-    } else if (direction === 'right') {
-      container.scrollBy({ left: scrollAmount, behavior: 'smooth' });
-    }
-  }
-</script>
 
 
 
@@ -576,20 +551,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	  <p>As maquininhas do Mercado Pago são indicadas para iniciantes, MEIs, autônomos e empresas que desejam praticidade, taxas acessíveis e excelente conectividade.</p>
 
 	  
-<center><h3>Maquininhas Mercado Pago</h3></center>
-
-	  
-
-<div style="position: relative; width: 100%; overflow: hidden;">
-  <!-- Botão Esquerda -->
-  <button onclick="scrollTable('left')" style="position: absolute; left: 0; top: 50%; transform: translateY(-50%); z-index: 10; background: #feea30; border: none; padding: 10px; cursor: pointer; font-size: 18px; border-radius: 5px;">
-    ◀
-  </button>
-
-  <!-- Botão Direita -->
-  <button onclick="scrollTable('right')" style="position: absolute; right: 0; top: 50%; transform: translateY(-50%); z-index: 10; background: #feea30; border: none; padding: 10px; cursor: pointer; font-size: 18px; border-radius: 5px;">
-    ▶
-  </button>
+<center>
+	<h3>Maquininhas Mercado Pago</h3>
+</center>
 
   <!-- Container com a Tabela -->
   <div id="scroll-cont" style="overflow-x: auto; scroll-behavior: smooth;">
@@ -631,20 +595,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       </tbody>
     </table>
   </div>
-</div>
 
-	<script>
-  function scrollTable(direction) {
-    const container = document.getElementById('scroll-cont');
-    const scrollAmount = 300; // pixels a rolar por clique
-
-    if (direction === 'left') {
-      container.scrollBy({ left: -scrollAmount, behavior: 'smooth' });
-    } else if (direction === 'right') {
-      container.scrollBy({ left: scrollAmount, behavior: 'smooth' });
-    }
-  }
-</script>
 
 
 
